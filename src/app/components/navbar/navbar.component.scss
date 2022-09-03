@@ -1,0 +1,10 @@
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .nav-link {
+    display: inline;
+    margin-right: 16px;
+  }
+}
