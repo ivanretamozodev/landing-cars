@@ -7,9 +7,11 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { FirstSectionComponent } from './components/first-section/first-section.component';
+import { SecondSectionComponent } from './components/second-section/second-section.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HeroComponent, CarouselComponent],
+  declarations: [AppComponent, NavbarComponent, HeroComponent, CarouselComponent, FirstSectionComponent, SecondSectionComponent],
   imports: [BrowserModule, AppRoutingModule, IvyCarouselModule],
   bootstrap: [AppComponent],
 })
