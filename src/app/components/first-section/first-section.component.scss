@@ -10,7 +10,7 @@
 
     .title {
       width: 50%;
-      text-align: center;
+      margin-left: 5rem;
       font-size: 1.1rem;
     }
     .paragraphs {
@@ -26,6 +26,7 @@
       width: 100%;
       height: 200px;
       object-fit: cover;
+      filter: brightness(0.7);
     }
   }
 }
