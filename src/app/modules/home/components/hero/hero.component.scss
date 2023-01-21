@@ -1,25 +1,35 @@
 section {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
-    url("../../../assets/hero3.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.911), rgba(0, 0, 0, 0.699)),
+    url("../../../../../assets/hero3.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   .hero-text {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 5%;
     font-size: 1rem;
     letter-spacing: 2px;
+  }
+  .hero-button{
+    position: absolute;
+    top: 60%;
+    left: 5%;
   }
 }
 @media (min-width: 768px) {
   section {
     .hero-text {
       left: 10%;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       letter-spacing: 5px;
+    }
+    .hero-button{
+      position: absolute;
+      top: 60%;
+      left: 10%;
     }
   }
 }
@@ -27,8 +37,13 @@ section {
   section {
     .hero-text {
       left: 10%;
-      font-size: 1.7rem;
+      font-size: 1.5rem;
       letter-spacing: 5px;
+    }
+    .hero-button{
+      position: absolute;
+      top: 65%;
+      left: 10%;
     }
   }
 }

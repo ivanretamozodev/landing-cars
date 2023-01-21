@@ -1,0 +1,24 @@
+@import "/src/styles/variables.scss";
+.small-btn{
+    padding: 0.25rem 0.75rem;
+    border: none;
+    font-size: 1rem;
+    i{
+        margin-left: 0.2rem;
+    }
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.large-btn{
+    padding: 0.5rem 1.25rem;
+    border: none;
+    font-size: 1rem;
+    i{
+        margin-left: 0.2rem;
+    }
+    &:hover{
+        cursor: pointer;
+    }
+}
