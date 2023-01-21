@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { SharedModule } from './../../shared/shared.module';
 import { ServicesSectionComponent } from './components/services-component/services.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -11,6 +12,6 @@ import { PageComponent } from './page/page.component';
 
 @NgModule({
     declarations: [AboutUsComponent, HeroComponent, NavbarComponent, ServicesSectionComponent, PageComponent],
-    imports: [CommonModule, HomeRoutingModule, SharedModule],
+    imports: [CommonModule, HomeRoutingModule, SharedModule, RouterModule],
 })
 export class HomeModule {}
