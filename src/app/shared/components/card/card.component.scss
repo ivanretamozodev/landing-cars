@@ -1,0 +1,29 @@
+@import "/src/styles/variables.scss";
+.card{
+    background-color: $dark-medium-color;
+    width: 18rem;
+    img{
+        display: block;
+        width: 100%;
+    }
+
+    &__description{
+        padding: 0.5rem;
+        &-info{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &-name{
+            text-align: left;
+            margin-top: -0.5rem;
+            letter-spacing: 1.2px;
+        }
+    }
+
+    &__button{
+        margin-top: -0.5rem;
+        width: 100%;
+        text-align: center;
+    }
+}
