@@ -1,0 +1,34 @@
+@import "/src/styles/variables.scss";
+
+.details-container{
+    width: 100%;
+    background-color: $dark-medium-color;
+.info-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: $dark-medium-color;
+.features-container{
+    width: 100%;
+
+}
+}
+}
+@media (min-width: 768px){
+    .details-container{
+        width: 100%;
+        margin: 1rem;
+        display: flex;
+        justify-content: space-between;
+
+    .info-container{
+        width: 50%
+    }
+    .features-container{
+        width: 50%
+    }
+      
+    };
+
+
+}

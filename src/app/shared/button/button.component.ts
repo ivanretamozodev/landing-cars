@@ -3,8 +3,8 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
     selector: 'app-button',
     template: `
-        <ng-container *ngIf="size === 'small'">
-            <button routerLink="/cars" class="small-btn">
+        <ng-container *ngIf="size === 'full'">
+            <button routerLink="/cars" class="full-btn">
                 {{ text }}
                 <i class="bi bi-arrow-right"></i>
             </button>

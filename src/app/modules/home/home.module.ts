@@ -19,7 +19,6 @@ import { HomeRoutingModule } from './home-routing.module';
 import { PageComponent } from './page/page.component';
 import { ServicesSectionComponent } from './components/services-component/services.component';
 import { HeroComponent } from './components/hero/hero.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
 import { AboutUsComponent } from './components/about-us-component/about-us.component';
 import { SwiperComponents } from './components/swiper/swiper.component';
 import { CatalogComponent } from './components/catalog/catalog.component';
@@ -28,7 +27,6 @@ import { CatalogComponent } from './components/catalog/catalog.component';
     declarations: [
         AboutUsComponent,
         HeroComponent,
-        NavbarComponent,
         ServicesSectionComponent,
         PageComponent,
         SwiperComponents,

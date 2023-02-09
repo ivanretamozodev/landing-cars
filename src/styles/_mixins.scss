@@ -1,0 +1,16 @@
+@mixin gradient-color(){
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin transition-ease($property: all){
+    transition: $property 0.3s ease-in-out;
+}
+
+@mixin flex($direction:row,$content:center,$items:center){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $content;
+    align-items:$items ;
+}

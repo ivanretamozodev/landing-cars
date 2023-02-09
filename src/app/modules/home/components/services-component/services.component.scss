@@ -8,7 +8,7 @@
   &-text {
     font-size: 0.8rem;
     text-align: center;
-    font-weight: lighter;
+    font-weight: normal;
   }
   &-items {
     padding: 1rem;
@@ -23,14 +23,14 @@
       border-bottom: 1px solid $grey-color;
       border-top: 1px solid $grey-color;
       &-number {
-        font-weight: lighter;
+        font-weight: normal;
       }
       &-title {
         text-align: center;
       }
       &-p {
         text-align: center;
-        font-weight: lighter;
+        font-weight: normal;
       }
     }
   }

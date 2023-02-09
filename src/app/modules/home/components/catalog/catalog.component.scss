@@ -1,6 +1,6 @@
 @import "/src/styles/variables.scss";
 .container {
-    width: 100%;
+
   &-title {
     font-size: 1.2rem;
     text-align: center;
@@ -9,7 +9,7 @@
     padding: 0.5rem;
     font-size: 0.8rem;
     text-align: center;
-    font-weight: lighter;
+    font-weight: normal;
   }
   &-button{
     margin-top: 3rem;

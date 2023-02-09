@@ -1,0 +1,16 @@
+<header>
+    <nav class="nav">
+        <div class="nav__menu">
+            <h3 class="nav__menu-title">Automotores</h3>
+            <button (click)="toggleMenu()" class="nav__menu-button">
+                <i [ngClass]="{ 'bi bi-list': !isOpen, 'bi bi-x-lg': isOpen }"></i>
+            </button>
+        </div>
+        <div class="nav__links" [ngClass]="{ open: isOpen }">
+            <a routerLinkActive="active" (click)="navigateTo('/home')" class="nav__link">Inicio</a>
+            <a routerLinkActive="active" (click)="navigateTo('/details/4')" class="nav__link">Catálogo</a>
+            <a routerLinkActive="active" (click)="navigateTo('/home')" class="nav__link">servicios</a>
+            <a routerLinkActive="active" (click)="navigateTo('/home')" class="nav__link">servicios</a>
+        </div>
+    </nav>
+</header>

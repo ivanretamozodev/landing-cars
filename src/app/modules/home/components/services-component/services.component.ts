@@ -23,7 +23,7 @@ export class ServicesSectionComponent {
         {
             number: '03',
             title: 'transaccion segura',
-            description: 'el proceso de transaccion es completado en 24hrs,no pierdas tiempo con cosas innesesarias',
+            description: 'el proceso de transaccion es completado en 24hrs, no pierdas tiempo con cosas innesesarias',
         },
     ];
 }
