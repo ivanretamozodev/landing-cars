@@ -11,7 +11,7 @@ import { SwiperModule } from 'swiper/angular';
  *MODULOS CREADOS POR MI
  */
 import { DetailsRoutingModule } from './details-routing.module';
-import { SharedModule } from 'src/app/shared/shared.module';
+import { SharedModule } from '@shared/shared.module';
 /*
  *COMPONENTES
  */

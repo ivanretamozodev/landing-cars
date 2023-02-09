@@ -8,6 +8,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 @NgModule({
     declarations: [ButtonComponent, CardComponent, NavbarComponent],
     imports: [CommonModule, RouterModule],
-    exports: [ButtonComponent, CardComponent, NavbarComponent],
+    exports: [ButtonComponent, NavbarComponent, CardComponent],
 })
 export class SharedModule {}

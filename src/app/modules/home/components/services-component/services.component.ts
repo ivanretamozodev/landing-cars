@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ServiceItem } from 'src/app/interfaces/servicesItem.interface';
+import { ServiceItem } from 'src/app/core/interfaces/servicesItem.interface';
 
 @Component({
     selector: 'app-services',

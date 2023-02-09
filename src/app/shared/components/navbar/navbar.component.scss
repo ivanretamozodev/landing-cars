@@ -13,6 +13,7 @@ header{
     &__menu{
         @include flex(row,space-between);
          &-title{
+            margin-left: 1rem ;
             font-size: 1.2rem;
             padding: 0.3rem;
             letter-spacing: 1.1px;
@@ -90,7 +91,6 @@ header{
     flex-direction: row;
     align-items: baseline;
     &__menu{
-        align-items: center;
         &-button{
             display: none;
         }
