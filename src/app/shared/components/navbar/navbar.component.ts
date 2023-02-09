@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 export class NavbarComponent {
     isOpen: boolean = false;
+    mobile: boolean = true;
     constructor(private _router: Router) {}
 
     toggleMenu() {

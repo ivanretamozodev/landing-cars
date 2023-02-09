@@ -1,4 +1,5 @@
-@import "/src/styles/variables.scss";
+@import "/src/styles/variables";
+@import "/src/styles/_mixins";
 .container {
   margin-top: 3rem;
   &-title {
@@ -24,6 +25,7 @@
       border-top: 1px solid $grey-color;
       &-number {
         font-weight: normal;
+        @include gradient-color;
       }
       &-title {
         text-align: center;

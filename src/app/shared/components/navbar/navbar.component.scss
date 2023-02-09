@@ -14,7 +14,7 @@ header{
         @include flex(row,space-between);
          &-title{
             font-size: 1.2rem;
-            margin: 0.5rem;
+            padding: 0.3rem;
             letter-spacing: 1.1px;
             
         }
@@ -34,6 +34,7 @@ header{
 
     &__links{
         @include flex(column);
+    
         position: absolute;
         gap: 2rem;
         width: 100%;
@@ -42,6 +43,27 @@ header{
         transform: translateY(-100%);
         z-index: 2;
        @include transition-ease;
+       &__sign{
+        min-width: 15rem;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        gap: 1rem;
+        margin-right: 1rem;
+        margin: 2rem  auto 0 auto;
+        &-link{
+            padding: 0.3rem;
+            font-size: 1.1rem;
+            background: $background;
+            cursor: pointer;
+        }
+        &-link-register{
+            padding: 0.3rem;
+            font-size: 1.1rem;
+            border: 1px solid $white-color;
+            cursor: pointer;
+        }
+       }
         .nav__link{
             font-size: 1.6rem;
             padding: 0.5rem;
@@ -54,8 +76,71 @@ header{
             }
         }
     }
+    &__sign{
+        display: none;
+    }
 }
 
 .open{
     transform: translateY(0);
+}
+
+@media screen and (min-width:768px) {
+    .nav{
+    flex-direction: row;
+    align-items: baseline;
+    &__menu{
+        align-items: center;
+        &-button{
+            display: none;
+        }
+    }
+    &__links{
+        @include flex(row);
+        position: static;
+        gap: 1rem;
+        width: 100%;
+        height: 60px;
+        background-color: $dark-medium-color;
+        transform: translateY(0);
+        z-index: 2;
+        @include transition-ease;
+        &__sign{
+            display: none;
+        }
+        .nav__link{
+            font-size: 0.9rem;
+            padding: 0.3rem;
+            height: 1.5rem;
+            @include transition-ease;
+            &:hover{
+                cursor: pointer;
+                background-color: $dark-medium-color;
+                border-bottom: 2px solid $white-color;
+            }
+         
+        }
+    }
+    &__sign{
+        min-width: 15rem;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        gap: 1rem;
+        margin-right: 1rem;
+        &-link{
+            padding: 0.3rem;
+            font-size: 0.9rem;
+            background: $background;
+            cursor: pointer;
+        }
+        &-link-register{
+            padding: 0.3rem;
+            font-size: 0.9rem;
+            border: 1px solid $white-color;
+            cursor: pointer;
+        }
+    }
+}
+    
 }

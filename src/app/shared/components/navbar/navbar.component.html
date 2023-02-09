@@ -11,6 +11,23 @@
             <a routerLinkActive="active" (click)="navigateTo('/details/4')" class="nav__link">Catálogo</a>
             <a routerLinkActive="active" (click)="navigateTo('/home')" class="nav__link">servicios</a>
             <a routerLinkActive="active" (click)="navigateTo('/home')" class="nav__link">servicios</a>
+            <div class="nav__links__sign">
+                <a
+                    routerLinkActive="active"
+                    (click)="navigateTo('/auth/register')"
+                    class="nav__links__sign-link-register"
+                    >Registrarse</a
+                >
+                <a routerLinkActive="active" (click)="navigateTo('/auth/login')" class="nav__links__sign-link"
+                    >Iniciar Sesión</a
+                >
+            </div>
+        </div>
+        <div class="nav__sign">
+            <a routerLinkActive="active" (click)="navigateTo('/auth/register')" class="nav__sign-link-register"
+                >Registrarse</a
+            >
+            <a routerLinkActive="active" (click)="navigateTo('/auth/login')" class="nav__sign-link">Iniciar Sesión</a>
         </div>
     </nav>
 </header>

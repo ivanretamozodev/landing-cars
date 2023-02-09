@@ -14,3 +14,15 @@
     justify-content: $content;
     align-items:$items ;
 }
+
+@mixin flexbox($display: flex, $flex-direction: row, $justify-content: flex-start, $align-items: center) {
+    display: $display;
+    flex-direction: $flex-direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+  }
+
+@mixin padding-margin($padding: 0, $margin: 0) {
+    padding: $padding;
+    margin: $margin;
+  }
