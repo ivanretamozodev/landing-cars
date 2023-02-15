@@ -12,7 +12,15 @@ const routes: Routes = [
         path: 'details/:id',
         loadChildren: () => import('./modules/details/details.module').then((m) => m.DetailsModule),
     },
-    { path: '**', redirectTo: 'home' },
+    {
+        path: 'auth',
+        loadChildren: () => import('./modules/auth/auth.module').then((m) => m.AuthModule),
+    },
+
+    {
+        path: '**',
+        redirectTo: 'home',
+    },
 ];
 
 @NgModule({

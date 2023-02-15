@@ -35,12 +35,11 @@ header{
 
     &__links{
         @include flex(column);
-    
         position: absolute;
         gap: 2rem;
         width: 100%;
         height: 100vh;
-        background-color: $dark-medium-color;
+        background-color: $dark-color;
         transform: translateY(-100%);
         z-index: 2;
        @include transition-ease;
@@ -101,7 +100,6 @@ header{
         gap: 1rem;
         width: 100%;
         height: 60px;
-        background-color: $dark-medium-color;
         transform: translateY(0);
         z-index: 2;
         @include transition-ease;
