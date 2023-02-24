@@ -1,67 +1,65 @@
-@import "/src/styles/variables.scss";
-.container{
+@import '/src/styles/variables.scss';
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
- 
-.title{
+
+    .title {
         color: $white-color;
-    font-weight: normal;
-    text-align: center;
-}
-.info{
-    margin-top: -1.5rem;
-    display: flex;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    align-items: center;
-    p{
-        color: $white-color;
-        font-weight: lighter;
+        font-weight: normal;
+        text-align: center;
     }
-    &:last-child{
-        font-weight: lighter;
+    .info {
+        margin-top: -1.5rem;
+        display: flex;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+        p {
+            color: $white-color;
+            font-weight: lighter;
+        }
+        &:last-child {
+            font-weight: lighter;
+        }
     }
-}
-.price{
-    margin-top: -1rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    h3{
-        color: $white-color;
-        
+    .price {
+        margin-top: -1rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        h3 {
+            color: $white-color;
+        }
+        p {
+            color: $white-color;
+        }
+        small {
+            font-size: 1.2rem;
+            color: $white-color;
+        }
     }
-    p{
-        color: $white-color;
+    .button {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
     }
-    small{
-        font-size: 1.2rem;
-        color: $white-color;
-    }
-}
-.button{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
 }
 
-@media (min-width: 768px){
-    .container{
-
-        .price{
-            p{
+@media (min-width: 768px) {
+    .container {
+        .price {
+            p {
                 font-size: 1.4rem;
             }
-            small{
-                font-weight: lighter
+            small {
+                font-weight: lighter;
             }
         }
 
-        .button{
+        .button {
             position: static;
             width: 85%;
             margin: 0 auto;

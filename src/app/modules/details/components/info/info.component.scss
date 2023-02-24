@@ -1,34 +1,29 @@
-@import "/src/styles/variables.scss";
+@import '/src/styles/variables.scss';
 
-.details-container{
-    width: 100%;
+.details-container {
     background-color: $dark-medium-color;
-.info-container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: $dark-medium-color;
-.features-container{
-    width: 100%;
-
-}
-}
-}
-@media (min-width: 768px){
-    .details-container{
+    margin: 0 auto;
+    .info-container {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: $dark-medium-color;
+        .features-container {
+            width: 100%;
+        }
+    }
+}
+@media (min-width: 768px) {
+    .details-container {
         margin: 1rem;
         display: flex;
         justify-content: space-between;
 
-    .info-container{
-        width: 50%
+        .info-container {
+            width: 50%;
+        }
+        .features-container {
+            width: 50%;
+        }
     }
-    .features-container{
-        width: 50%
-    }
-      
-    };
-
-
 }
